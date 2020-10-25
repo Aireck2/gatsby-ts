@@ -16,10 +16,9 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 1.  **Clone repository.**
 
-
     ```shell
     git clone git@github.com:Aireck2/gatsby-ts.git
-    
+
     ```
 
 1.  **Start developing.**
