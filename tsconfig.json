@@ -1,5 +1,13 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@src/*": ["src/*"],
+      "@static/*": ["static/*"],
+      "@components/*": ["src/components/*"],
+      "@images/*": ["src/images/*"],
+      "@pages/*": ["src/pages/*"]
+    },
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "target": "es5",
@@ -15,11 +23,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve",
-    "baseUrl": "src",
-    "paths": {
-      "src/*": ["*"]
-    }
+    "jsx": "preserve"
   },
   "include": ["src"]
 }
