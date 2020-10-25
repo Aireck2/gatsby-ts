@@ -1,0 +1,21 @@
+$green: #64ffda;
+
+.Header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.Header__container {
+  padding: 0 50px;
+}
+.Header__logo {
+  font-weight: normal;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 36px;
+  color: $green;
+  a {
+    color: inherit;
+    line-height: none;
+  }
+}
