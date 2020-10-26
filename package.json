@@ -2,49 +2,71 @@
   "name": "gatsby-starter-default",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "dependencies": {
-    "gatsby": "^2.24.79",
-    "gatsby-image": "^2.4.21",
-    "gatsby-plugin-alias-imports": "^1.0.5",
-    "gatsby-plugin-manifest": "^2.4.34",
-    "gatsby-plugin-offline": "^3.2.33",
-    "gatsby-plugin-react-helmet": "^3.3.14",
-    "gatsby-plugin-sass": "^2.3.21",
-    "gatsby-plugin-sharp": "^2.6.42",
-    "gatsby-plugin-typescript": "^2.4.24",
-    "gatsby-plugin-web-font-loader": "^1.0.4",
-    "gatsby-source-filesystem": "^2.3.34",
-    "gatsby-transformer-sharp": "^2.5.17",
-    "node-sass": "^4.14.1",
-    "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^6.1.0"
-  },
-  "devDependencies": {
-    "@types/react-helmet": "^6.1.0",
-    "prettier": "2.1.2"
-  },
+  "version": "0.0.1",
+  "author": "Erick <erick.hx22@gmail.com>",
+  "license": "0BSD",
   "keywords": [
     "gatsby"
   ],
-  "license": "0BSD",
-  "scripts": {
-    "build": "gatsby build",
-    "start": "gatsby develop",
-    "prettier:fix": "prettier --write \"**/*.{tsx,ts,js,jsx,json,md}\"",
-    "dev": "yarn start",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "dependencies": {
+    "gatsby": "^2.24.85",
+    "gatsby-image": "^2.4.21",
+    "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-manifest": "^2.4.35",
+    "gatsby-plugin-offline": "^3.2.37",
+    "gatsby-plugin-react-helmet": "^3.3.14",
+    "gatsby-plugin-sass": "^2.3.21",
+    "gatsby-plugin-sharp": "^2.6.43",
+    "gatsby-plugin-typescript": "^2.4.24",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-source-filesystem": "^2.3.35",
+    "gatsby-transformer-sharp": "^2.5.19",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/react-helmet": "^6.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.12.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.14.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "lint-staged": "^10.4.2",
+    "prettier": "2.1.2",
+    "shell-quote": "^1.7.2",
+    "stylelint": "^13.7.2",
+    "typescript": "^4.0.3"
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "prettier:lint": "prettier '**/*.{js?(on),ts?(x),scss,md,y?(a)ml,gql,graphql?(s),less,mjml,html}' --write=false --list-different",
+    "prettier:fix": "yarn prettier:lint --write=true",
+    "build": "gatsby build",
+    "start": "gatsby develop",
+    "dev": "yarn start",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn precommit"
+    }
   }
 }
