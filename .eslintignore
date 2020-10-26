@@ -1,0 +1,8 @@
+node_modules/
+dist/
+build/
+public/
+out/
+.cache/
+storybook-static/
+__snapshots__/
