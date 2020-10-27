@@ -1,19 +1,8 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 import { Header } from "@components/Header"
 import "./layout.scss"
 
 export const Layout: React.FC = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <>
       <Header />
@@ -30,8 +19,7 @@ export const Layout: React.FC = ({ children }) => {
             marginTop: `2rem`,
           }}
         >
-          © {new Date().getFullYear()}, Built with
-          {` `}
+          © 2020, Built with
           <a href="https://www.gatsbyjs.com">Gatsby</a>
         </footer>
       </div>

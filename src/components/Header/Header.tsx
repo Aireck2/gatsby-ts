@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
-import "./styles.scss"
+import "./header.scss"
+import { Navbar } from "@components/Header"
 
 export const Header: React.FC = () => (
   <header className="Header">
@@ -10,6 +11,7 @@ export const Header: React.FC = () => (
           Erick
         </Link>
       </h1>
+      <Navbar />
     </div>
   </header>
 )
