@@ -1,0 +1,36 @@
+@import "../../style/_variables";
+
+.Navbar {
+  display: none;
+  align-items: center;
+  font-family: "Fira Code";
+  justify-content: flex-end;
+}
+.Navbar__container {
+  display: flex;
+  margin-right: 30px;
+  padding: 0 12px;
+}
+.Navbar__item + .Navbar__item {
+  padding-left: 20px;
+}
+.Navbar__item__number {
+  font-size: 14px;
+  color: $green;
+}
+.Navbar__item__string {
+  font-size: 16px;
+  color: $first;
+  padding-left: 10px;
+  a {
+    color: inherit;
+  }
+}
+
+@media screen {
+  @media (min-width: $md) {
+    .Navbar {
+      display: flex;
+    }
+  }
+}
