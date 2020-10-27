@@ -7,6 +7,9 @@ $green: #64ffda;
 }
 .Header__container {
   padding: 0 50px;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  width: 100%;
 }
 .Header__logo {
   font-weight: normal;
