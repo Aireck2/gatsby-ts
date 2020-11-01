@@ -1,0 +1,60 @@
+@import "../../style/_variables";
+
+.Banner {
+  margin: 0px auto;
+  padding: 100px 0px;
+  max-width: 1000px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Banner__green {
+  margin: 0px 0px 30px 4px;
+  color: $green;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
+  font-weight: 400;
+}
+.Banner__name {
+  margin: 0px 0px 0px 4px;
+  color: $first;
+  font-size: 80px;
+  font-family: "Calibre", monospace;
+  font-weight: 600;
+}
+.Banner__main__text {
+  margin: 0px 0px 0px 4px;
+  color: $second;
+  font-size: 80px;
+  font-family: "Calibre", monospace;
+  font-weight: 600;
+}
+.Banner__main__description {
+  font-size: 20px;
+  font-family: "Calibre", monospace;
+  color: $third;
+  margin: 20px 0px 0px;
+  max-width: 500px;
+}
+.Banner__contact-btn {
+  transition-delay: 500ms;
+  a {
+    margin-top: 50px;
+    color: $green;
+    background-color: transparent;
+    border: 1px solid $green;
+    border-radius: $border-radius;
+    padding: 1.25rem 1.75rem;
+    font-size: 14px;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  & a:hover {
+    background-color: rgba($color: $green, $alpha: 0.1);
+  }
+}
