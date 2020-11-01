@@ -4,6 +4,10 @@ $green: #64ffda;
   height: 100px;
   display: flex;
   align-items: center;
+  position: fixed;
+  top: 0px;
+  z-index: 11;
+  width: 100%;
 }
 .Header__container {
   padding: 0 50px;
