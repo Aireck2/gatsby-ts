@@ -1,28 +1,22 @@
-import React from "react"
 import { Header } from "@components/Header"
+import React from "react"
 import "./layout.scss"
 
 export const Layout: React.FC = ({ children }) => {
   return (
     <>
       <Header />
-      <div
+      <main
         style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
+          padding: `0 150px`,
+          height: "100vh",
         }}
       >
-        <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © 2020, Built with
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
-      </div>
+        <>{children}</>
+      </main>
     </>
   )
 }
+// div padding 100px
+// main padding 100px
+// section padding 100px maxwidth
