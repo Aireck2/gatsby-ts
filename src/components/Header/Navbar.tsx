@@ -1,5 +1,6 @@
-import React from "react"
 import { Link } from "gatsby"
+import React from "react"
+import { Button } from "../Button"
 import "./navbar.scss"
 
 export const Navbar: React.FC = () => {
@@ -25,6 +26,7 @@ export const Navbar: React.FC = () => {
           </span>
         </li>
       </ul>
+      <Button href="/something">Resume</Button>
     </div>
   )
 }
