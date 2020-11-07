@@ -12,17 +12,17 @@ $green: #64ffda;
 .Header__container {
   padding: 0 50px;
   display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 2fr 5fr;
   width: 100%;
 }
 .Header__logo {
-  font-weight: normal;
+  font-weight: bolder;
   text-transform: uppercase;
   margin: 0;
-  line-height: 36px;
   color: $green;
+  display: flex;
+  align-items: center;
   a {
     color: inherit;
-    line-height: none;
   }
 }

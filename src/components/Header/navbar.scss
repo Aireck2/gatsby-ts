@@ -3,7 +3,7 @@
 .Navbar {
   display: none;
   align-items: center;
-  font-family: "Fira Code";
+  font-family: $font-sans;
   justify-content: flex-end;
 }
 .Navbar__container {
@@ -20,7 +20,7 @@
 }
 .Navbar__item__string {
   font-size: 16px;
-  color: $first;
+  color: $lightest-slate;
   padding-left: 10px;
   a {
     color: inherit;
