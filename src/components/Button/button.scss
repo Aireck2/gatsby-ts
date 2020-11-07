@@ -1,0 +1,8 @@
+@import "../../style/_variables";
+@import "../../style/mixins.scss";
+
+.Button__link {
+  @include bigButton;
+  width: max-content;
+  padding: 0.75rem 1rem;
+}
