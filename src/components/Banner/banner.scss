@@ -13,28 +13,28 @@
 .Banner__green {
   margin: 0px 0px 30px 4px;
   color: $green;
-  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-  font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
+  font-family: $font-mono;
+  font-size: clamp($fz-sm, 5vw, $fz-md);
   font-weight: 400;
 }
 .Banner__name {
   margin: 0px 0px 0px 4px;
-  color: $first;
+  color: $lightest-slate;
   font-size: 80px;
-  font-family: "Calibre", monospace;
+  font-family: $font-sans;
   font-weight: 600;
 }
 .Banner__main__text {
   margin: 0px 0px 0px 4px;
-  color: $second;
+  color: $light-slate;
   font-size: 80px;
-  font-family: "Calibre", monospace;
+  font-family: $font-sans;
   font-weight: 600;
 }
 .Banner__main__description {
   font-size: 20px;
-  font-family: "Calibre", monospace;
-  color: $third;
+  font-family: $font-sans;
+  color: $slate;
   margin: 20px 0px 0px;
   max-width: 500px;
 }
@@ -48,7 +48,7 @@
     border-radius: $border-radius;
     padding: 1.25rem 1.75rem;
     font-size: 14px;
-    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    font-family: $font-mono;
     line-height: 1;
     text-decoration: none;
     cursor: pointer;
