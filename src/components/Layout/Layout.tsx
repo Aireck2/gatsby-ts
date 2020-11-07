@@ -17,6 +17,3 @@ export const Layout: React.FC = ({ children }) => {
     </>
   )
 }
-// div padding 100px
-// main padding 100px
-// section padding 100px maxwidth
