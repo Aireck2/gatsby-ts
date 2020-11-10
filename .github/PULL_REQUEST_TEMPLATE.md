@@ -18,4 +18,4 @@
 
 This pull request closes the following issue:
 
-- #
+- Closes #
