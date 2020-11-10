@@ -5,7 +5,7 @@ import React from "react"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Erick Escriba" />
     <Banner />
   </Layout>
 )
