@@ -1,0 +1,87 @@
+@import "../../style/_variables";
+.side {
+  display: none;
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  z-index: 10;
+  color: $light-slate;
+}
+.right {
+  left: auto;
+  right: 40px;
+}
+.Email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  &:after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0 auto;
+    background-color: $light-slate;
+  }
+
+  a {
+    margin: 20px auto;
+    padding: 10px;
+    font-family: $font-mono;
+    font-size: $fz-xxs;
+    letter-spacing: 0.1em;
+    writing-mode: vertical-rl;
+
+    &:hover,
+    &:focus {
+      transform: translateY(-3px);
+    }
+  }
+}
+
+.left {
+  left: 40px;
+  right: auto;
+}
+.Social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  &:after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0 auto;
+    background-color: $light-slate;
+  }
+  li {
+    padding: 10px;
+    &:last-of-type {
+      margin-bottom: 20px;
+    }
+    a {
+      &:hover,
+      &:focus {
+        transform: translateY(-3px);
+      }
+      svg {
+        width: 18px;
+        height: 18px;
+      }
+    }
+  }
+}
+
+@media screen {
+  @media (min-width: 768px) {
+    .side {
+      display: block;
+    }
+  }
+}
