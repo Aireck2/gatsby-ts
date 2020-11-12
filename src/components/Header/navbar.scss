@@ -28,7 +28,7 @@
 }
 
 @media screen {
-  @media (min-width: $md) {
+  @media (min-width: $screen-md) {
     .Navbar {
       display: flex;
     }
