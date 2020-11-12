@@ -7,12 +7,7 @@ export const Layout: React.FC = ({ children }) => {
   return (
     <>
       <Header />
-      <main
-        style={{
-          padding: `0 150px`,
-          height: "100vh",
-        }}
-      >
+      <main className="Layout">
         <Email />
         <Social />
         <>{children}</>
