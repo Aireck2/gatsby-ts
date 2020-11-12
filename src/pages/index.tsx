@@ -6,7 +6,7 @@ import "../style/globalStyles.scss"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Erick Escriba" />
+    <SEO />
     <Banner />
   </Layout>
 )
