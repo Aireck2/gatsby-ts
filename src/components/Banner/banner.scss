@@ -11,7 +11,7 @@
   align-items: flex-start;
 }
 .Banner__green {
-  margin: 0px 0px 30px 4px;
+  margin: 0 0 20px 2px;
   color: $green;
   font-family: $font-mono;
   font-size: clamp($fz-sm, 5vw, $fz-md);
@@ -20,14 +20,14 @@
 .Banner__name {
   margin: 0px 0px 0px 4px;
   color: $lightest-slate;
-  font-size: 80px;
   font-family: $font-sans;
   font-weight: 600;
+  font-size: clamp(40px, 8vw, 80px);
 }
 .Banner__main__text {
   margin: 0px 0px 0px 4px;
   color: $light-slate;
-  font-size: 80px;
+  font-size: clamp(40px, 8vw, 80px);
   font-family: $font-sans;
   font-weight: 600;
 }
@@ -56,5 +56,13 @@
   }
   & a:hover {
     background-color: rgba($color: $green, $alpha: 0.1);
+  }
+}
+
+@media screen {
+  @media (min-width: 480px) {
+    .Banner__green {
+      margin: 0px 0px 30px 4px;
+    }
   }
 }
