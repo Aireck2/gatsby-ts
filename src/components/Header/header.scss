@@ -1,16 +1,26 @@
-$green: #64ffda;
+@import "../../style/_variables";
 
 .Header {
-  height: 100px;
   display: flex;
   align-items: center;
   position: fixed;
   top: 0px;
   z-index: 11;
   width: 100%;
+  height: $nav-height;
+  // background-color: $navy;
+  backdrop-filter: blur(10px);
+  transition: $transition;
+  filter: none !important;
+  pointer-events: auto !important;
+  user-select: auto !important;
+  // height: var(--nav-scroll-height);
+  transform: translateY(0px);
+  background-color: rgba(10, 25, 47, 0.85);
+  box-shadow: 0 10px 30px -10px $navy-shadow;
 }
 .Header__container {
-  padding: 0 50px;
+  padding: 0 25px;
   display: grid;
   grid-template-columns: 2fr 5fr;
   width: 100%;
@@ -24,5 +34,17 @@ $green: #64ffda;
   align-items: center;
   a {
     color: inherit;
+  }
+}
+@media screen {
+  @media (min-width: $screen-md) {
+    .Header__container {
+      padding: 0 40px;
+    }
+  }
+  @media (min-width: $screen-lg) {
+    .Header__container {
+      padding: 0 50px;
+    }
   }
 }
