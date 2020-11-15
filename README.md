@@ -12,7 +12,7 @@
     <img src="https://api.netlify.com/api/v1/badges/52f43707-bc3e-4cd2-9c05-8b0adfde5d3d/deploy-status" alt="Netlify Status" />
   </a>
 </p>
-![demo](https://raw.githubusercontent.com/Aireck2/gatsby-ts/develop/src/images/preview-portfolio.png?token=ALUDWBL3CX3345HYHS7AZMC7WGHJW)
+![demo](https://i.imgur.com/YXx8qDM.png)
 
 ## Requirements ✋🏻
 
