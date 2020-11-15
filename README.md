@@ -12,6 +12,7 @@
     <img src="https://api.netlify.com/api/v1/badges/52f43707-bc3e-4cd2-9c05-8b0adfde5d3d/deploy-status" alt="Netlify Status" />
   </a>
 </p>
+
 ![demo](https://i.imgur.com/YXx8qDM.png)
 
 ## Requirements ✋🏻
