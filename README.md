@@ -1,16 +1,47 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="static/Logo.png">
+    <img alt="E logo" src="static/Logo.png" width="60" />
   </a>
 </p>
 <h1 align="center">
-  A Gatsby starter with typescript
+  erickescribaa - v1
 </h1>
+<p align="center">
+  <a href="https://app.netlify.com/sites/erickescribaa/deploys" target="_blank">
+    <img src="https://api.netlify.com/api/v1/badges/52f43707-bc3e-4cd2-9c05-8b0adfde5d3d/deploy-status" alt="Netlify Status" />
+  </a>
+</p>
+![demo](https://raw.githubusercontent.com/Aireck2/gatsby-ts/main/src/images/preview-portfolio.png)
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+## Requirements ✋🏻
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/pt-BR/docs/install)
+
+## 🚀 Some Tecnologies used 🔥
+
+- [Gatsby.js](https://www.gatsbyjs.com/)
+- [Sass](https://sasslang.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React Hooks](https://reactjs.org/docs/hooks-intro.html)
+
+## 🚀 Helper development tools
+
+- [Babel](https://babeljs.io/)
+- [babel-eslint](https://github.com/babel/babel-eslint)
+- [babel-plugin-root-import](https://github.com/entwicklerstube/babel-plugin-root-import)
+- [ESLint](https://eslint.org/)
+- [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
+- [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
+- [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)
+- [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
+- [eslint-import-resolver-babel-plugin-root-import](https://github.com/olalonde/eslint-import-resolver-babel-root-import)
+- [Prettier](https://prettier.io/)
+- [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
+- [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
+- [EditorConfig](https://editorconfig.org/)
+- [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks)
 
 ## 🚀 Quick start
 
@@ -78,15 +109,10 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-12. **`README.md`**: A text file containing useful reference information about your project.
 
 ## 🎓 Learning Gatsby
 
 Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
 ## 💫 Deploy
 
@@ -94,4 +120,3 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-default)
 
-<!-- AUTO-GENERATED-CONTENT:END -->
