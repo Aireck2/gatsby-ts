@@ -43,8 +43,8 @@ module.exports = {
         name: "ErickEscriba",
         short_name: "ErickEscriba",
         start_url: "/",
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#0a192f`,
+        theme_color: `#0a192f`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
