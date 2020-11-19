@@ -20,7 +20,7 @@
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://yarnpkg.com/pt-BR/docs/install)
 
-## 🚀 Some Tecnologies used 🔥
+## 🚀 Tecnologies used 🔥
 
 - [Gatsby.js](https://www.gatsbyjs.com/)
 - [Sass](https://sasslang.com/)
