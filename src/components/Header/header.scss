@@ -21,7 +21,8 @@
 }
 .Header__container {
   padding: 0 25px;
-  display: grid;
+  display: flex;
+  justify-content: space-between;
   grid-template-columns: 2fr 5fr;
   width: 100%;
 }
@@ -34,6 +35,11 @@
   align-items: center;
   a {
     color: inherit;
+  }
+  svg {
+    fill: none;
+    width: 48px;
+    height: 48px;
   }
 }
 @media screen {
