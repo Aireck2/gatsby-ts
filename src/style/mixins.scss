@@ -1,25 +1,29 @@
-@mixin bigButton {
-  color: $green;
-  background-color: transparent;
-  border: 1px solid $green;
-  border-radius: $border-radius;
-  padding: 1.25rem 1.75rem;
-  font-size: $fz-sm;
-  font-family: $font-mono;
-  line-height: 1;
-  text-decoration: none;
-  cursor: pointer;
-  transition: $transition;
-  &:hover,
-  &:focus,
-  &:active {
-    background-color: $green-tint;
-  }
-  &:after {
-    display: none !important;
-  }
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+@mixin link {
+  display: inline-block;
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  color: inherit;
+  position: relative;
+  transition: $transition;
+  cursor: pointer;
+  &:hover,
+  &:active,
+  &:focus {
+    color: $green;
+    outline: 0;
+  }
+}
 @mixin inlineLink {
   display: inline-block;
   text-decoration: none;
@@ -51,5 +55,95 @@
     background-color: $green;
     transition: $transition;
     opacity: 0.5;
+  }
+}
+@mixin bigButton {
+  color: $green;
+  background-color: transparent;
+  border: 1px solid $green;
+  border-radius: $border-radius;
+  padding: 1.25rem 1.75rem;
+  font-size: $fz-sm;
+  font-family: $font-mono;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: $transition;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $green-tint;
+  }
+  &:after {
+    display: none !important;
+  }
+}
+@mixin smallButton {
+  color: $green;
+  background-color: transparent;
+  border: 1px solid $green;
+  border-radius: $border-radius;
+  padding: 0.75rem 1rem;
+  font-size: $fz-xs;
+  font-family: $font-mono;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: $transition;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $green-tint;
+  }
+  &:after {
+    display: none !important;
+  }
+}
+
+@mixin button {
+  color: $green;
+  background-color: transparent;
+  border: 1px solid $green;
+  border-radius: $border-radius;
+  font-size: $fz-xs;
+  font-family: $font-mono;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: $transition;
+  padding: 1.25rem 1.75rem;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $green-tint;
+    outline: none;
+  }
+  &:after {
+    display: none !important;
+  }
+}
+@mixin boxShadow {
+  box-shadow: 0 10px 30px -15px $navy-shadow;
+  transition: $transition;
+  &:hover,
+  &:focus {
+    box-shadow: 0 20px 30px -15px $navy-shadow;
+  }
+}
+@mixin fancyList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: $fz-lg;
+  li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    &:before {
+      content: "▹";
+      position: absolute;
+      left: 0;
+      color: $green;
+    }
   }
 }
