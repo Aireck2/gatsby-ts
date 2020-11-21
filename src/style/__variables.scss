@@ -11,7 +11,6 @@ $white: #e6f1ff;
 $green: #64ffda;
 $green-tint: rgba(100, 255, 218, 0.1);
 
-$nav-height: 100px;
 // Media Queries variables
 $screen-xs: 300px;
 $screen-sm: 480px;
@@ -19,7 +18,6 @@ $screen-md: 768px;
 $screen-lg: 995px;
 $screen-xlg: 1440px;
 
-$border-radius: 3px;
 //Font Family
 $font-sans: "Calibre", "San Francisco", "SF Pro Text", -apple-system, system-ui,
   sans-serif;
@@ -35,4 +33,20 @@ $fz-xl: 20px;
 $fz-xxl: 22px;
 $fz-heading: 32px;
 
+$border-radius: 3px;
+$nav-height: 100px;
+$nav-scroll-height: 70px;
+
+$tab-height: 42px;
+$tab-width: 120px;
+
+$easing: cubic-bezier(0.645, 0.045, 0.355, 1);
 $transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+$hamburger-width: 30px;
+$ham-before: top 0.1s ease-in 0.25s, opacity 0.1s ease-in;
+$ham-before-active: top 0.1s ease-out, opacity 0.1s ease-out 0.12s;
+$ham-after: bottom 0.1s ease-in 0.25s,
+  transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+$ham-after-active: bottom 0.1s ease-out,
+  transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
