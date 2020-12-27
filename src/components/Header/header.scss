@@ -4,11 +4,11 @@
   display: flex;
   align-items: center;
   position: fixed;
-  top: 0px;
+  top: 0;
   z-index: 11;
   width: 100%;
   height: $nav-height;
-  // background-color: $navy;
+  background-color: $navy;
   backdrop-filter: blur(10px);
   transition: $transition;
   filter: none !important;
@@ -17,6 +17,16 @@
   // height: var(--nav-scroll-height);
   transform: translateY(0px);
   background-color: rgba(10, 25, 47, 0.85);
+}
+.Header--scrollUp {
+  height: $nav-scroll-height;
+  transform: translateY(0px);
+  background-color: rgba(10, 25, 47, 0.85);
+  box-shadow: 0 10px 30px -10px $navy-shadow;
+}
+.Header--scrollDown {
+  height: $nav-scroll-height;
+  transform: translateY($nav-scroll-height * -1);
   box-shadow: 0 10px 30px -10px $navy-shadow;
 }
 .Header__container {
