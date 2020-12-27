@@ -27,8 +27,8 @@ const IconLogo: React.FC = () => (
       />
     </g>
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
+      fillRule="evenodd"
+      clipRule="evenodd"
       d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48ZM15 13.2V12H33V16.2H19.2V22.2H32.4V25.8H19.2V31.8H33V36H15V34.8V31.8V25.8V22.2V16.2V13.2Z"
       fill="white"
     />
@@ -40,9 +40,9 @@ const IconLogo: React.FC = () => (
         width="41"
         height="47"
         filterUnits="userSpaceOnUse"
-        color-interpolation-filters="sRGB"
+        colorInterpolationFilters="sRGB"
       >
-        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feFlood floodOpacity="0" result="BackgroundImageFix" />
         <feBlend
           mode="normal"
           in="SourceGraphic"
@@ -66,32 +66,6 @@ const IconLogo: React.FC = () => (
       </filter>
     </defs>
   </svg>
-
-  // <svg
-  //   id="logo"
-  //   xmlns="http://www.w3.org/2000/svg"
-  //   role="img"
-  //   viewBox="0 0 84 96"
-  // >
-  //   <title>Logo</title>
-  //   <g transform="translate(-8.000000, -2.000000)">
-  //     <g transform="translate(11.000000, 5.000000)">
-  //       {/* <path
-  //         d="M45.691667,45.15 C48.591667,46.1 50.691667,48.95 50.691667,52.2 C50.691667,57.95 46.691667,61 40.291667,61 L28.541667,61 L28.541667,30.3 L39.291667,30.3 C45.691667,30.3 49.691667,33.15 49.691667,38.65 C49.691667,41.95 47.941667,44.35 45.691667,45.15 Z M33.591667,43.2 L39.241667,43.2 C42.791667,43.2 44.691667,41.85 44.691667,38.95 C44.691667,36.05 42.791667,34.8 39.241667,34.8 L33.591667,34.8 L33.591667,43.2 Z M33.591667,47.5 L33.591667,56.5 L40.191667,56.5 C43.691667,56.5 45.591667,54.75 45.591667,52 C45.591667,49.2 43.691667,47.5 40.191667,47.5 L33.591667,47.5 Z"
-  //         // fill="currentColor"
-  //       /> */}
-
-  //       <polygon
-  //         id="Shape"
-  //         stroke="currentColor"
-  //         stroke-width="5"
-  //         stroke-linecap="round"
-  //         stroke-linejoin="round"
-  //         points="39 0 0 22 0 67 39 90 78 68 78 23"
-  //       />
-  //     </g>
-  //   </g>
-  // </svg>
 )
 
 export default IconLogo
