@@ -9,9 +9,8 @@ export const Banner: React.FC = () => (
       <h2 className="Banner__name">Erick Escriba.</h2>
       <h2 className="Banner__main__text">I build things for the web.</h2>
       <p className="Banner__main__description">
-        I'm a front-end developer based in Lima, Peru . I'm currently into Web
-        Development and I'm passionate in building (and occasionally designing)
-        exceptional websites
+        I'm a front-end developer based in Lima, Peru . I'm currently into web
+        development and I'm passionate in building exceptional websites
       </p>
       <div className="Banner__contact-btn">
         <a href="mailto:erickescribaa@gmail.com">Get In Touch</a>
